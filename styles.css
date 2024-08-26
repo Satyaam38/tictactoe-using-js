@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0%;
+}
+body{
+    background-color: rgba(0, 0, 255, 0.597);
+    text-align: center;
+}
+h1{
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+
+}
+.out{
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 60svh;
+    width: 60svh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+.box{
+    height: 20svh;
+    width: 18svh;
+    border-radius: 1rem;
+    border: 0;
+    font-size: 5rem;
+    box-shadow: 0px 0px 20px;
+}
+.over{
+    font-size: 20px;
+    height: 40px;
+    width: 150px;
+    border-radius: 1rem;
+    border: 0;
+    box-shadow: 1px 1px 5px,-1px -1px 5px #fff;
+    background-image: linear-gradient(pink,rgba(26, 28, 188, 0.593));
+    font-family:fantasy;
+}
